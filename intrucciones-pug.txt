@@ -1,0 +1,2 @@
+ install npm i pug-cli -g
+ compilar pug -w --pretty landing.pug
