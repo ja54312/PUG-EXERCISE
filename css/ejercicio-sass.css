@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif; }
+  font-family: "Lato", sans-serif; }
 
 main {
   display: -webkit-box;
@@ -15,7 +15,9 @@ main {
 
 .perfil {
   width: 50%;
-  padding-top: 50px; }
+  padding-top: 50px;
+  color: #FFFFFF;
+  background-color: #8841DA; }
   .perfil__avatar {
     display: block;
     margin: 0 auto;
@@ -23,7 +25,8 @@ main {
   .perfil__nombre {
     text-transform: uppercase;
     text-align: center;
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: "Oswald", sans-serif; }
   .perfil__titulo {
     text-transform: uppercase;
     text-align: center;
@@ -38,4 +41,30 @@ main {
     border-radius: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF; }
+
+.estadistica--perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 90px;
+  padding-top: 15px;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: #FFFFFF; }
+  .estadistica--perfil h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif; }
+  .estadistica--perfil span {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif; }
