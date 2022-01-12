@@ -4,3 +4,6 @@
  LESS
  npm install -g less
 lessc platzigames.less platzigames.css
+
+STYLUS
+stylus -w ejercicio-stylus.styl
